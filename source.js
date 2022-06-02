@@ -3,7 +3,7 @@
 function run() {
 
     const result = document.getElementById('Resultado')
-        result.style.display = 'block'
+    result.style.display = 'block'
     let { desmotivacional, demo2, fixo, sufixo } = arrays()
     
     let number = Math.floor(Math.random() * demo2.length)
@@ -12,7 +12,7 @@ function run() {
     const number1 = Math.floor(Math.random() * fixo.length)
         console.info(number1)
 
-    if (number == 0) {
+    if (number == 0) { 
 
     const number0 = desmotivacional[Math.floor(Math.random() * desmotivacional.length)]
         let frase = 'Você ' + demo2[0] +'um '+ number0;
@@ -58,6 +58,7 @@ function arrays() {
     let sufixo =[
         'nada',
         'lavar uma louça',
+        'varrer um chão',
 
     ]
     return { desmotivacional, demo2, fixo, sufixo }
