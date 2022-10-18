@@ -37,7 +37,7 @@ p{
     border-radius: 10px;
     padding: 30px;
     border-bottom: solid rgb(9, 0, 128);
-    display: none;
+    display: hidden;
     
 }
 .footer{
